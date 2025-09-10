@@ -110,7 +110,7 @@
 @keyframes yxyh2021{0%{transform: rotate(-4deg);}50%{transform: rotate(4deg);}100%{transform: rotate(-4deg);}}
 @-webkit-keyframes yxyh2021{0%{-webkit-transform: rotate(-4deg);}50%{-webkit-transform: rotate(4deg);}100%{-webkit-transform: rotate(-4deg);}}
 .jinsom-honor-2021 {
-    background: url(../../../images/2021.png)!important;
+    background: url(https://cdn.jsdelivr.net/gh/xunbaolou/zachary@1.6.51.28/images/2021.png)!important;
     background-size: 100% 100%!important;
     width: 55px;
     color: rgb(255 0 0 / 0%);
