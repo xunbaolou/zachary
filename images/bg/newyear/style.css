@@ -1,0 +1,33 @@
+body {background-attachment:fixed;background-image: url(2.jpg); background-repeat: no-repeat; background-position: center 50px; background-color: #fff; background-size: contain; }
+.jinsom-menu-fixed { padding-top: 150px!important; }
+.jinsom-header { background: none; background-position: center top; background-size: cover; }
+.jinsom-header:after { content: ""; width: 100%; height: 34px; position: absolute; bottom: -33px; z-index: 10; background: url(1.png) no-repeat top center; }
+.jinsom-header:before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(255,255,255,0.8); z-index: -1; }
+.jinsom-header::before {background-image: url(2.jpg); background-position: center top; background-size: cover; background-attachment: fixed; -webkit-filter: blur(20px); -moz-filter: blur(20px); -ms-filter: blur(20px); -o-filter: blur(20px); filter: blur(20px); }
+.jinsom-header-right li i, .jinsom-header-right li p { color: #fff!important; }
+.jinsom-footer { background-image: url(3.png); background-repeat: no-repeat; background-position: center top; background-size: 100% 100%; }
+.jinsom-footer-top>li>.title { color: #ff5722; }
+.jinsom-index-menu li.on, .jinsom-index-menu li:hover,.jinsom-sidebar-follow-btn.no,.jinsom-right-bar li,.jinsom-more-posts {color: #fff;background-image: url(4.png); background-position: center top; }
+.jinsom-footer-top .logo img {background: #ff000042; }
+.jinsom-right-bar:before { background-image: url(5.png); width: 50px; height: 80px; bottom: -80px; left: 0; position: absolute; content: ""; }
+.jinsom-right-bar:after { content: ""; width: 2px; height: 20px; background: #d55659; position: absolute; left: 22px; bottom: -10px; }
+.jinsom-menu ul li a { color: #fff!important; }
+.jinsom-right-bar { top: 30%; }
+.jinsom-more-posts { width: fit-content; }
+.jinsom-show-bbs-box, .jinsom-sidebar-box,.jinsom-posts-list,.jinsom-topic-list li,.jinsom-case-content li,.jinsom-bbs-box,.jinsom-single-special-box { box-shadow: 2px 3px 10px rgba(255, 87, 34, 0.2); }
+.jinsom-show-bbs-box-content li:hover { border: 1px #efabac solid; }
+.jinsom-show-bbs-box-content li:hover .bottom a { background-color: #de948a; }
+.jinsom-show-bbs-box-content li:hover>i { color: #ff5722; }
+.jinsom-menu ul li ul li a { color: #000!important; }
+.jinsom-show-bbs-box { padding:0 0 20px 0; }
+.jinsom-show-bbs-box-content { padding: 0 20px; }
+.jinsom-show-bbs-box-header {position: relative;line-height: 35px; color: #fff; background-image: url(4.png); background-position: center top; }
+.jinsom-show-bbs-box-header .name { border: unset; background: #ff000047; padding: 0 30px 0 20px; border-radius: 0 35px 0 0; }
+.jinsom-show-bbs-box-header.user .number { line-height: 35px; margin-right: 100px; color: #fff; }
+.jinsom-show-bbs-box-header.user .number span i { color: #fff; padding-left: 5px; }
+.jinsom-show-bbs-box-header:before { content: ""; width: 50px; height: 50px; position: absolute; right: 4px; top: -3px; background-image: url(6.png); }
+.jinsom-black-house-content,.jinsom-luck-gift { background-color: rgba(255, 255, 255, 0)!important; }
+.jinsom-menu ul li.current-menu-item a:after {margin: 0 auto;z-index: 9999;content: ""; width: 30px; height: 80px; position: absolute; bottom: -80px; left: 0; right: 0; background-image: url(7.png); }
+.category .jinsom-menu-fixed {
+    padding-top: 50px!important;
+}
